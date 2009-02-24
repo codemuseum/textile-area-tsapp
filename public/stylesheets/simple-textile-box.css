@@ -1,0 +1,8 @@
+
+body.displaying-page.action-edit .app-textile-area div.no-textile {height:20px; border:1px dotted gray;}
+.app-textile-area pre { background-color:#F8F8FF; border:1px solid #DEDEDE; color:#444444; font-size:90%; line-height:1.5em; margin:1em 0; padding:0.5em; }
+.app-textile-area pre,
+.app-textile-area code {font-family:Monaco,"Courier New",monospace;}
+.app-textile-area code {background-color:#F8F8FF; border:1px solid #DEDEDE; color:#444444; font-size:90%; padding:0 0.2em;}
+.app-textile-area h1 {text-align:center;}
+.app-textile-area h2 {border-top:2px solid #E0E0E0; font-size:150%; margin-top:1.5em; padding-top:0.5em;}

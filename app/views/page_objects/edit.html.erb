@@ -1,0 +1,7 @@
+<% stylesheets 'simple-textile-box-edit' -%>
+<% # javascripts 'test' -%>
+
+<% fields_for_page_object do |f| %>
+  <div><%= f.label :source, 'Textile Content' %></div>
+  <div><%= f.text_area :source %></div>
+<% end %>

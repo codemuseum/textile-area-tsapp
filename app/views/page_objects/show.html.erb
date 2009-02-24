@@ -1,0 +1,10 @@
+<% stylesheets 'simple-textile-box' -%>
+<% # javascripts 'prototype', 'effects', 'dragdrop', 'assets' -%>
+
+<% if @page_object.compiled.blank? %>
+<div class="no-textile">
+<% end %>
+<%= @page_object.compiled %>
+<% if @page_object.compiled.blank? %>
+</div>
+<% end %>
