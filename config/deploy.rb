@@ -1,18 +1,14 @@
-set :application, "textile-area"
 set :repository,  "git@github.com:thrivesmart/textile-area-tsapp.git"
 
 set :user, "app"
 set :use_sudo, false
 
-set :deploy_to, "/var/www/apps/#{application}"
 set :scm, :git
 set :git_enable_submodules, 1
 
-set :port, 33333
-set :location, "209.20.86.103"
-role :app, location
-role :web, location
-role :db,  location, :primary => true
+set :stages, %w(development production)
+require 'capistrano/ext/multistage'
+# deploy_to, location, and roles delegated to individual stage deploy files in config/deploy/[stage].rb
 
 namespace :deploy do
   desc "Restart Application"
