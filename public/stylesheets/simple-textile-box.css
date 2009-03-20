@@ -1,5 +1,4 @@
-
-body.displaying-page.action-edit .app-textile-area div.no-textile {height:20px; border:1px dotted gray;}
+body.displaying-page.action-edit .app-textile-area div.no-textile {height:34px; border:1px dotted gray;background:transparent url(../images/empty-textile.png) top center no-repeat; }
 .app-textile-area pre { background-color:#F8F8FF; border:1px solid #DEDEDE; color:#444444; font-size:90%; line-height:1.5em; margin:1em 0; padding:0.5em; }
 .app-textile-area pre,
 .app-textile-area code {font-family:Monaco,"Courier New",monospace;}
